@@ -1,0 +1,72 @@
+#reg_header{
+    height: 110px;
+    background: white;
+    box-shadow: 5px 0px 15px #cccccc;
+}
+#reg_header .reg_h_center{
+    width: 800px;
+    height: 110px;
+    margin: 0 auto;
+}
+#reg_header h3{
+    float: left;
+    font-size: 25px;
+    font-weight: 400;
+    color: #333;
+    margin-top: 50px;
+}
+#reg_header .reg_h_right{
+    width: 200px;
+    height: 110px;
+    float: right;
+    line-height: 110px;
+    padding-top: 20px;
+}
+#reg_header .reg_h_right span{
+    color: #6c6c6c;
+    font-size: 15px;
+    margin-right: 10px;
+    float: left;
+}
+#reg_header .reg_h_right a{
+    color: #333;
+    font-size: 15px;
+    display: inline-block;
+    float: left;
+}
+#reg_main{
+    width: 400px;
+    margin: 50px auto;
+}
+#reg_main form div{
+    width: 400px;
+    height: 54px;
+    border: 1px solid #cccccc;
+    margin-bottom: 40px;
+    padding-left: 20px;
+    padding-top: 17px;
+}
+#reg_main form label{
+    letter-spacing: 10px;
+    float: left;
+    font-size: 14px;
+    margin-right: 10px;
+}
+#reg_main form input::-webkit-input-placeholder{
+    color: #cccccc;
+    font-size: 14px;
+}
+#reg_main .button{
+    padding: 0;
+}
+#reg_main input[type=submit]{
+    width: 400px;
+    height: 54px;
+    color: white;
+    font-size: 16px;
+    background: red;
+    font-weight: bold;
+}
+#reg_main input[type=submit]:hover{
+    cursor: pointer;
+}

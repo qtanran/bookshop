@@ -1,0 +1,77 @@
+.center{
+    width:1200px;
+    margin: 0 auto;
+}
+.top{
+    height: 25px;
+}
+.top .danjia{
+    height:25px;
+    width: 100px;
+    margin-left: 700px;
+    float: left;
+}
+.top .shuliang{
+    height:25px;
+    width: 100px;
+    float: left;
+    margin-left: 25px;
+}
+.top .zongjia{
+    height: 25px;
+    width: 100px;
+    float: left;
+    margin-left: 25px;
+}
+.car{
+    width: 1200px;
+    height: 200px;
+    border: 2px solid #6c6c6c ;
+}
+.car .car_left{
+    height: 200px;
+    width: 200px;
+    margin-left: 50px;
+    float: left;
+    margin-top:25px;
+}
+.car .car_left img{
+    height: 150px;
+}
+.car .name{
+    height: 200px;
+    width: 400px;
+    float: left;
+    line-height:200px;
+}
+.car .name p{
+    font-size:18px;
+}
+.car ._price{
+    height: 200px;
+    width: 200px;
+    line-height:200px;
+    padding-left: 50px;
+    float: left;
+}
+.car ._price p{
+    font-size:18px;
+}
+.car .many{
+    height: 200px;
+    width: 100px;
+    float: left;
+    line-height:200px;
+}
+.car .many p{
+     font-size:18px;
+ }
+.car .totalprice{
+    height: 200px;
+    width: 100px;
+    float: left;
+    line-height:200px;
+}
+.car .totalprice p{
+    font-size:18px;
+}

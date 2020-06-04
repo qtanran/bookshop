@@ -1,0 +1,102 @@
+/*整体边距为0*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #f5f5f5;
+}
+/*头部*/
+#header{
+    height: 210px;
+    background: #ffffff;
+}
+/*头部上部*/
+#header .header_top{
+    height: 36px;
+    background: #f5f5f5;
+}
+/*头部上部中间*/
+.header_top_center{
+    width: 1200px;
+    height: 36px;
+    margin: 0 auto;
+    line-height: 36px;
+}
+/*欢迎来到网上书城*/
+.header_top_left{
+    font-size:13px;
+    color: #6c6c6c;
+    float: left;
+    height: 36px;
+}
+/*头部中间右侧*/
+.header_top_right{
+    float: right;
+    height: 36px;
+}
+/*注册 登陆 购物车 订单*/
+.header_top_right a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #6c6c6c;
+    margin: 0 10px;
+}
+/*鼠标移动到 注册 登陆 购物车 订单 时*/
+.header_top_right a:hover{
+    font-size: 14px;
+    color: #ff4400;
+}
+/*表单整体设置*/
+.header_center form{
+    width: 630px;
+    height: 40px;
+    margin: 40px auto;
+}
+/*搜索表单*/
+.input_t{
+    width: 555px;
+    height: 40px;
+    border: 2px solid #ff4400;
+    padding-left: 10px;
+    float: left;
+}
+/*搜索按钮*/
+.input_s{
+    width: 75px;
+    height: 40px;
+    border: none;
+    background: #ff4400;
+    float: left;
+    color: #ffffff;
+    font-size: 16px;
+}
+/*导航栏*/
+.header_nav{
+    height: 44px;
+    width: 1200px;
+    margin: 0 auto;
+    background: #ff4400;
+}
+.header_nav ul{
+    list-style: none;
+    display: flex;
+    height: 44px;
+    width: 1200px;
+    line-height: 44px;
+}
+.header_nav ul li{
+    flex: 1;
+    float: left;
+    text-align: center;
+}
+.header_nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+}
+.header_nav ul li a:hover{
+    font-size: 20px;
+}

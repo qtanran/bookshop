@@ -1,0 +1,122 @@
+/*广告位*/
+#ad{
+    width: 1200px;
+    height: 400px;
+    margin: 10px auto;
+}
+/*广告图片*/
+#ad img{
+    width: 1200px;
+    height: 400px;
+}
+#ms{
+    width: 1200px;
+    height: 305px;
+    margin: 0 auto;
+}
+#ms .ms_title{
+    height: 55px;
+    background: url("../image/秒杀.png");
+    -webkit-background-size:1200px 55px ;
+    background-size:1200px 55px ;
+    line-height: 55px;
+}
+#ms .ms_title span{
+    color: white;
+}
+#ms .ms_title span:first-child{
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+#ms .ms_body{
+    height: 250px;
+    background: #ffffff;
+}
+#ms .ms_body ul{
+    display: flex;
+    list-style: none;
+    width: 1200px;
+    height: 250px;
+}
+#ms .ms_body ul li{
+    flex: 1;
+    border-right: 1px solid #6c6c6c;
+}
+#ms .ms_body ul li:last-child{
+    border-right: none;
+}
+#ms .ms_body ul a{
+    color: #6c6c6c;
+    text-decoration: none;
+    width: 100%;
+}
+#ms .ms_body ul a p{
+    font-size: 12px;
+    padding: 0 12px;
+    margin: 20px 0;
+}
+#ms .ms_body ul a img{
+    height: 140px;
+    display: block;
+    margin: 10px auto;
+}
+/*￥*/
+.yuan{
+    font-size: 12px;
+    color: #ff4400;
+    margin-right: 3px;
+}
+/*价格*/
+.price{
+    color: #ff4400;
+    font-weight: bold;
+}
+/*热卖商品部分*/
+#hot_goods{
+    width: 1200px;
+    margin: 10px auto;
+}
+/*热卖商品*/
+#hot_goods h3{
+    height: 44px;
+    line-height: 44px;
+    font-size: 20px;
+    color: #ff4400;
+    padding-left: 10px;
+    border-bottom: 1px solid #6c6c6c;
+    background: #ffffff;
+}
+.hot_goods_body ul{
+    list-style: none;
+    overflow: hidden;
+}
+.hot_goods_body ul li{
+    width: 236px;
+    height: 315px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background: white;
+    float: left;
+}
+.hot_goods_body ul li:nth-child(5n){
+    margin-right: 0;
+}
+.hot_goods_body ul li a{
+    text-decoration: none;
+    padding: 15px;
+}
+/*鼠标移到上面有红边框*/
+.hot_goods_body ul li:hover{
+    border: 1px solid #ff4400;
+}
+.hot_goods_body ul li a p{
+    font-size: 13px;
+    color: #6c6c6c;
+    margin: 15px 15px;
+}
+.hot_goods_body ul li a img{
+    display: block;
+    margin: 0px auto;
+    height: 200px;
+}

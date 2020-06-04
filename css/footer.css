@@ -1,0 +1,19 @@
+/*尾部样式*/
+.footer{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.footer .link{
+    text-align: center;
+}
+.footer a{
+    text-decoration: none;
+    color: #666;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.footer .Copyright{
+    text-align: center;
+    margin-top: 10px;
+}

@@ -1,0 +1,99 @@
+body{
+    background: white;
+}
+#bread{
+    height: 44px;
+    background: #f5f5f5;
+}
+#bread .bread_center{
+    width: 1200px;
+    margin: 0 auto;
+    height: 44px;
+    line-height: 44px;
+}
+#bread .bread_center a{
+    color: black;
+}
+#detail{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 10px;
+}
+#detail .detail_img{
+    height: 400px;
+    flex: 1;
+/*    border: 1px solid #ccc;*/
+}
+#detail .detail_img img{
+    height: 100%;
+}
+#detail .detail_price {
+    height: 400px;
+    flex: 2;
+    padding: 20px;
+}
+/*商品名称*/
+.goods_name{
+    font-size: 18px;
+    color: #666;
+}
+/*商品价格*/
+.goods_price{
+    background: #f3f3f3;
+    height: 80px;
+    width: 70%;
+    margin-top: 20px;
+    padding: 10px;
+}
+/*原价*/
+.ori_price{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+/*价格*/
+.now_price{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.now_price i{
+    color: #ff4400;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.now_price span{
+    font-size: 16px;
+    color: #ff4400;
+    font-weight: bold;
+}
+/*购买数量*/
+.goods_count{
+    font-size: 14px;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+/*购买数量*/
+.goods_count label{
+    margin-right: 10px;
+}
+/*表单*/
+.goods_count input{
+    border: 1px solid #cccccc;
+    height: 30px;
+    width: 40px;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+.add_cart
+{
+    margin-top: 50px;
+}
+/*加入购物车*/
+.add_cart input{
+    background: #ff4400;
+    width: 150px;
+    height: 44px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}

@@ -1,0 +1,58 @@
+.yuan{
+    font-size: 12px;
+    color: #ff4400;
+    margin-right: 3px;
+}
+/*价格*/
+.price{
+    color: #ff4400;
+    font-weight: bold;
+}
+/*热卖商品部分*/
+#hot_goods{
+    width: 1200px;
+    margin: 10px auto;
+}
+/*热卖商品*/
+#hot_goods h3{
+    height: 44px;
+    line-height: 44px;
+    font-size: 20px;
+    color: #ff4400;
+    padding-left: 10px;
+    border-bottom: 1px solid #6c6c6c;
+    background: #ffffff;
+}
+.hot_goods_body ul{
+    list-style: none;
+    overflow: hidden;
+}
+.hot_goods_body ul li{
+    width: 236px;
+    height: 315px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background: white;
+    float: left;
+}
+.hot_goods_body ul li:nth-child(5n){
+    margin-right: 0;
+}
+.hot_goods_body ul li a{
+    text-decoration: none;
+    padding: 15px;
+}
+/*鼠标移到上面有红边框*/
+.hot_goods_body ul li:hover{
+    border: 1px solid #ff4400;
+}
+.hot_goods_body ul li a p{
+    font-size: 13px;
+    color: #6c6c6c;
+    margin: 15px 15px;
+}
+.hot_goods_body ul li a img{
+    display: block;
+    margin: 0px auto;
+    height: 200px;
+}
